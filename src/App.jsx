@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import '../src/styles/App.css'
 import Navbar from './components/Navbar.jsx'
-import FormData from './components/FormData.jsx'
+import FormData from './components/Formdata.jsx'
 import CVPreview from './components/CVPreview.jsx'
 import Footer from './components/Footer.jsx'
 
