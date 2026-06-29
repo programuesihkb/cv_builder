@@ -1,0 +1,24 @@
+.navbar {
+  background-color: var(--secondary-color);
+  padding: 1rem;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.navbar_logo {
+  display: flex;
+  align-items: center;
+  
+}
+
+.navbar_logo-image {
+  height: 2rem;
+  margin-right: 1rem;
+}
+
+.navbar_title {
+  color: var(--text-color);
+  margin: 0;
+}
+
+
