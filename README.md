@@ -1,16 +1,26 @@
-# React + Vite
+# CV Builder
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A responsive CV/resume builder built with React and Vite. Fill in your details and watch your CV update in real time on the right-hand side.
 
-Currently, two official plugins are available:
+**Live demo:** [https://cv-builder-88ewg1gdo-double-e.vercel.app/](https://cv-builder-88ewg1gdo-double-e.vercel.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Features
 
-## React Compiler
+- Contact information form (name, email, phone, LinkedIn, GitHub)
+- Work experience section with start/end dates and current job toggle
+- Education section
+- Skills section
+- Live CV preview that updates as you type
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Tech Stack
 
-## Expanding the Oxlint configuration
+- [React](https://react.dev/)
+- [Vite](https://vite.dev/)
+- Deployed on [Vercel](https://vercel.com/)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## Getting Started
+
+```bash
+npm install
+npm run dev
+```
